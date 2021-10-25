@@ -1,7 +1,11 @@
 import 'package:branche/add.dart';
 import 'package:branche/code.dart';
+import 'package:branche/login.dart';
 import 'package:branche/report.dart';
 import 'package:flutter/material.dart';
+import 'package:branche/addcode.dart';
+import 'package:branche/tqareer.dart';
+import 'package:branche/tqrer.dart';
 
 import 'home.dart';
 
@@ -14,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'branche',
-      home: CodeScreen(),
+      home: HomeScreen(),
     );
 
   }
